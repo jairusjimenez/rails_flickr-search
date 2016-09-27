@@ -1,24 +1,3 @@
-# README
+## Flickr Photo Finder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A simple application for finding photos of given Flickr ids. Prepared for the [API Project 2](http://www.theodinproject.com/ruby-on-rails/apis?ref=lc-pb) on [The Odin Project](http://www.theodinproject.com/home).

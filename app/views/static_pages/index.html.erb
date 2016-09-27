@@ -1,0 +1,12 @@
+<div class="form">
+	<%= form_tag({ controller: "static_pages", action: "index" }, method: "get") do %>
+		<%= label_tag :user_id, "Flickr Id: " %>
+		<%= text_field_tag :user_id %>
+
+		<%= submit_tag "Submit" %>
+	<% end %>
+</div>
+
+<% if @user_id %>
+ 	<%= render_flickr_sidebar_widget(@user_id) %>
+<% end %>

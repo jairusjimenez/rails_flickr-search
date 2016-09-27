@@ -1,0 +1,36 @@
+header h1 {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.form {
+	width: 410px;
+	margin: auto;
+	margin-top: 30px;
+}
+.flickr {
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.flickr ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.flickr ul li {
+	border-bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.flickr_photo {
+	width: 250px;
+	height: 250px;
+	padding: 40px 33px 106px 43px;
+	margin: 0;
+	background: #fff url("../images/polaroid1.jpg") no-repeat;
+	border-radius: 5px;
+}
